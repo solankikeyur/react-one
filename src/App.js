@@ -38,8 +38,8 @@ function App() {
     <Navbar title="Project-One" mode={mode}  changeMode={changeMode}></Navbar>
     <Alert alert={alert}></Alert>
     <Routes>
-      <Route path='/' element={<TextForm label="Enter Your Text" mode={mode} showAlert={showAlert}></TextForm>}></Route>
-      <Route path='/about-us' element={<About></About>}></Route>
+      <Route path='/react-one' element={<TextForm label="Enter Your Text" mode={mode} showAlert={showAlert}></TextForm>}></Route>
+      <Route path='/react-one/about-us' element={<About></About>}></Route>
     </Routes>
     
     </>
